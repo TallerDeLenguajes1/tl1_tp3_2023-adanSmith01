@@ -1,0 +1,4 @@
+# Archivos ignorados
+*.exe
+*.o
+*.obj
