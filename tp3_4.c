@@ -98,7 +98,7 @@ void mostrarDatosClientes(struct Cliente** clientes, int cant) {
             printf("  Tipo de producto: %s", clientes[i]->Productos[j].TipoProducto);
             printf("   Cantidad: %d", clientes[i]->Productos[j].Cantidad);
             printf("    Precio Unitario: %.2f", clientes[i]->Productos[j].PrecioUnitario);
-            printf("    Subtotal: %.2f\n", costoTotalProd(clientes[i]->Productos[j]));
+            printf("    Costo total: %.2f\n", costoTotalProd(clientes[i]->Productos[j]));
             total += costoTotalProd(clientes[i]->Productos[j]);
         }
         printf("\nTOTAL A PAGAR: %.2f\n", total);
